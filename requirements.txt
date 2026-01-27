@@ -1,0 +1,21 @@
+torch
+torchvision
+numpy
+
+diffusers[torch]
+transformers
+accelerate
+datasets
+peft
+safetensors
+pillow
+huggingface_hub
+packaging
+tqdm
+
+# Optional but used if enabled in the script
+wandb
+xformers
+bitsandbytes
+
+tensorboard
