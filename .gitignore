@@ -1,6 +1,9 @@
 # Data & models
 lora-output-*/
 
+# Diffusers
+diffusers/
+
 # Directories you want to keep but empty
 # Ignore everything in training_images
 training_images/**
@@ -12,10 +15,14 @@ training_images/**
 !training_images/American_Lobster/.gitkeep
 !training_images/Blue_Shark/
 !training_images/Blue_Shark/.gitkeep
+!training_images/coral_reef/
+!training_images/coral_reef/.gitkeep
 !training_images/Lions_Mane_Jellyfish/
 !training_images/Lions_Mane_Jellyfish/.gitkeep
 !training_images/Mola_Mola/
 !training_images/Mola_Mola/.gitkeep
+!training_images/other/
+!training_images/other/.gitkeep
 
 lora_inference_images/*
 !lora_inference_images/.gitkeep
