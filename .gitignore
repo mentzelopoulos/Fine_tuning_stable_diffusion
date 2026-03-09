@@ -8,6 +8,10 @@ diffusers/
 # Ignore everything in training_images
 training_images/**
 
+add_quality_phrases.py
+get_images_from_ocean_agency.ipynb
+make_metadata.ipynb
+
 # But allow placeholders and metadata
 !training_images/.gitkeep
 !training_images/metadata.jsonl
@@ -26,3 +30,4 @@ training_images/**
 
 lora_inference_images/*
 !lora_inference_images/.gitkeep
+
